@@ -9,3 +9,27 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#fbtw{
+	width: 60;
+}
+
+#bluefooter{
+
+	background-color: #0b3d86;
+	color: white;
+	
+}
+
+#image{
+	position:relative;
+	margin:0; 
+	padding:0;
+}
+
+#footlinks{
+	background-color: #c4c4c4;
+	margin:0; 
+	padding:0; 
+	position: relative;
+}

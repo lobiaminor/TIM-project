@@ -9,10 +9,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-      body {
-                                                                        padding-top: 70px;
-                                                                        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-                                                                    }
+      @import url(css/dispositivi.css);
+                      body {
+                           	padding-top: 70px;
+                     		/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+                      }
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and
     media queries -->
@@ -23,8 +24,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head><body>
-    <!-- Navigation -->
-    <!-- PARTESOPRA -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: #0b3d86;">
       <ul class="nav navbar-nav navbar-left">
         <li class="hidden-xs">
@@ -128,16 +127,56 @@
       </div>
     </div>
     <div class="section">
-      <div class="background-image"></div>
       <div class="container">
-        <div class="container hidden-xs">
-          <div class="row">
-            <div class="col-md-12">
-              <img src="imgs\dispositivi\dispositivi.jpg" class="img-responsive">
-            </div>
+        <div class="col-md-12" id="image">
+          <img src="imgs\dispositivi\dispositivi.jpg" class="img-responsive" align="center">
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row" id="footlinks">
+          <div class="col-md-6">
+            <h4>SEGUICI SU:</h4>
+          </div>
+          <div class="col-md-6" id="fbtw" position="relative">
+            <p class="text-right">SEGUICI SU:</p>
+            <img src="imgs\fb.PNG" class="img-responsive">
+            <img src="imgs\twitter.PNG" class="img-responsive">
           </div>
         </div>
       </div>
+    </div>
+    <div class="section">
+      <div class="background-image"></div>
+      <footer class="section section-primary" id="bluefooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6">
+              <div class="col-sm-2">
+                <p>Privacy</p>
+              </div>
+              <div class="col-sm-2 text-left">
+                <p>Note legali</p>
+              </div>
+              <div class="col-sm-2 text-left">
+                <p>Website info</p>
+              </div>
+              <div class="col-sm-2 text-left">
+                <p>Contatti</p>
+              </div>
+              <div class="col-sm-3">
+                <p class="text-left">Per i consumatori</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="row">
+                <p class="text-right">Telecom Italia 2012 - P.IVA 00488410010</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   
 
