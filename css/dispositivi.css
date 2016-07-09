@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - Dispositivi HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+
+
+
+/*
+*Imamgini a scorrimento nella home page
+*/
+#carousel-example-generic{
+	margin-top: 80;
+	margin-bottom: 50;
+}
+/*
+* Il landmark 
+*/
+#landmark{
+	background-color: #0b3d86;
+	border: (0, 0, 0, 0);
+	border-bottom: solid;
+	border-bottom: 3px;
+	border-bottom-color:#e50000;
+	font-weight: bold;
+	
+}
+
+/*
+background dei menu a tendina selezionati
+*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background-color: #0b3d86;
+}
+/*
+* Link non validi
+*/
+#linknonvalidi:hover{
+	opacity: 0.2;
+}
+
+
+/*
+testo della navbar
+*/
+.navbar-brand{
+	
+	font-size: 14;
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+
+#immagine{
+	width: 200px;
+	height: 200px;
+}
+
+
+/*
+* I bottoni del landmark
+*/
+#bottoniMenu{
+	background-color: #D8D8D8;
+	border-bottom: solid;
+	border-width: 0.5px;
+	border-color: #000a99;
+}
+
+
+#dispositivi{
+	margin-top: 150px;
+}
+
+#assistenza{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+#fbtw{
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+	float:left;
+}
+
+#fbtwtxt{
+	margin-top: 20px;
+}
+
+
+
+#bluefooter{
+
+	background-color: #0b3d86;
+	color: white;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+}
+
+
+#image{
+	position:relative;
+
+}
+
+#footlinks{
+	background-color: #c4c4c4;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+#dispositiviimg{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#linksimg{
+	height: 180px;
+	width: 180px;
+	padding: 10px;
+}
+
+#navigationbarp{
+	background-color: #E8E8E8  ;
+	border-radius: 10px 10px 10px 10px;
+	border: solid;
+	border-width: 2px;
+	border-color: #C0C0C0 ;
+	margin-top: 120px;
+	margin-bottom: 10px;
+}
+
+#navigationbartext{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
