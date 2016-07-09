@@ -6,12 +6,14 @@
 
 
 
-
+/*
+*Barra scorrimento SiteMap
+*/
 .DocumentList
 {
     overflow-x:hidden;
     overflow-y:hidden;
-    height:100px;
+    height:53px;
     padding: 0 15px;
     white-space: nowrap;
     position: relative;
@@ -33,8 +35,7 @@
     padding:0;
     height:200px;
 }
-
-
+/*end*/
 
 
 
