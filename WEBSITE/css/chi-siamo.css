@@ -1,0 +1,8 @@
+.tab-pane{
+    height:620px;
+    overflow-y:scroll;
+}
+
+.tab-content{
+    height:620px;
+}
