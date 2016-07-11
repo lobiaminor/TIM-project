@@ -172,6 +172,16 @@ testo della navbar
 	text-align: left;
 }
 
- .nuovaclasse{
-	color: #4141FF;
- }
+
+
+
+/*Bottone per tornare indietro*/
+#tornaindietro{
+    padding-bottom: 10px;
+    background-color: #0b3d86;
+}
+/*titolo delle pagine secondarie*/
+#titolo{
+    color: #0326de;
+	font-family: Arial,Helvetica, sans-serif;
+}
