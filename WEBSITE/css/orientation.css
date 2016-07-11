@@ -38,5 +38,22 @@
  }
 
  #dropdownMenu1{
-	     margin-bottom: 30;
+	margin-bottom: 30;
  }
+
+/*
+*L'intestazione delle tebelle'
+*/
+ #bottonetabella{
+	 background-color: #0b3d86;
+	 color: white;
+ }
+
+/*
+*I menù a tendina in formato smartphone 
+*/
+ #tabellaDropdown{
+	 margin-left: 10px;
+	 margin-right: 10px;
+ }
+
