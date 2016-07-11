@@ -8,6 +8,13 @@
     <link rel="shortcut icon" href="imgs\favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tim.css" rel="stylesheet" type="text/css">
+
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+  </script>
+
   </head><body>
     <!--Barra superiore-->
     <nav id="landmark" class="navbar navbar-inverse">
@@ -69,12 +76,22 @@
         </ul>
       </div>
     </nav>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3" onclick="goBack()">
+            <a id="tornaindietro"  class="btn btn-primary "><span class="glyphicon glyphicon-arrow-left"></span> Torna ai servizi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <a href="In_Evidenza.html" class="btn btn-primary">← Torna indietro</a>
-            <div class="row; text-center" style="color:#4141FF">
+            <div id="titolo" class="text-center">
               <h1>Gestione della linea</h1>
             </div>
             <p contenteditable="true">Richiedere l'attivazione di una linea telefonica di casa è molto semplice,
