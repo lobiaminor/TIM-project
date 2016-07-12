@@ -4,10 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>TIM | ModemADSL</title>
+    <title>TIM | Modem ADSL</title>
     <link rel="shortcut icon" href="imgs\favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tim.css" rel="stylesheet" type="text/css">
+
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+  </script>
+
   </head><body>
     <!--Barra superiore-->
     <nav id="landmark" class="navbar navbar-inverse">
@@ -72,11 +79,8 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-xs-3">
-            <a id="tornaindietro" href="SupportoConfigurazione.html" class="btn btn-primary "><span class="glyphicon glyphicon-arrow-left"></span> Torna al supporto tecnico</a>
-          </div>
-          <div class="col-xs-3 col-xs-offset-6 hidden-xs hidden-sm">
-            <a id="tornaindietro" href="In_Evidenza.html" class="btn btn-primary ">Torna ai servizi in evidenza <span class="glyphicon glyphicon-arrow-right"></span></a>
+          <div class="col-xs-3" onclick="goBack()">
+            <a id="tornaindietro"  class="btn btn-primary "><span class="glyphicon glyphicon-arrow-left"></span> Torna ai servizi</a>
           </div>
         </div>
       </div>
@@ -85,7 +89,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="text-center nuovaclasse">
+            <div class="text-center">
               <h1 id="titolo">Modem ADSL</h1>
             </div>
             <p>
