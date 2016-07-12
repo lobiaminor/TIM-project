@@ -6,3 +6,12 @@
 .tab-content{
     height:620px;
 }
+
+#immaginilarghe{
+    padding: initial;
+}
+
+#gestoreriga{
+    margin: initial;
+    overflow-x: auto;
+}

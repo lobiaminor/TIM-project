@@ -14,15 +14,11 @@
     overflow-x:hidden;
     overflow-y:hidden;
     height:53px;
-    padding: 0 15px;
     white-space: nowrap;
     position: relative;
 }
 
-.row {
-    width: 100%;
-    overflow-x:scroll;
-}
+
 
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
@@ -94,7 +90,7 @@ testo della navbar
 *bug fix
 */
 .dropdown-backdrop{
-    position: static;
+	position: relative;
 }
 
 
@@ -205,3 +201,14 @@ testo della navbar
 	color: #ed1c24;
 	font-size: 20;
 }
+
+#carousel-example-generic{
+	margin-bottom: 0;
+}
+
+.row{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#carousel-example-generic
