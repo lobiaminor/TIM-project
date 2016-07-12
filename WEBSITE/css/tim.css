@@ -205,3 +205,17 @@ testo della navbar
 	color:#ed1c24;
 	font-size: 20;
 }
+
+.plainText{
+	font-weight: normal;
+}
+
+.prices{
+	text-align: center;
+	font-weight: normal;
+}
+
+.buyLink{
+	 margin-top: 20px;
+	 font-weight: bold;
+}
