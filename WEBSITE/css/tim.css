@@ -73,6 +73,13 @@ background dei menu a tendina selezionati
 	opacity: 0.2;
 }
 
+/*
+* Link non validi
+*/
+.linknonvalidi:hover{
+	opacity: 0.2;
+}
+
 
 /*
 testo della navbar
@@ -191,4 +198,10 @@ testo della navbar
 #titolo{
     color: #0326de;
 	font-family: Arial,Helvetica, sans-serif;
+}
+
+
+#prezzo{
+	color:#ed1c24;
+	font-size: 20;
 }
