@@ -211,4 +211,20 @@ testo della navbar
 	margin-right: auto;
 }
 
-#carousel-example-generic
+.plainText{
+	font-weight: normal;
+}
+
+.prices{
+	text-align: center;
+	font-weight: normal;
+}
+
+.buyLink{
+	 margin-top: 20px;
+	 font-weight: bold;
+}
+
+#coloretim{
+	background-color: #0b3d86;
+}
