@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="imgs\favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tim.css" rel="stylesheet" type="text/css">
+    <link href="css/orientation.css" rel="stylesheet" type="text/css">
   </head><body>
     <!--Barra superiore-->
     <nav id="landmark" class="navbar navbar-inverse">
@@ -67,14 +68,20 @@
         </ul>
       </div>
     </nav>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4" style="padding-left:20%; padding-top:10%">
-            <a href="Casa_e_famiglia.html" class="btn btn-primary">← Casa e famiglia</a>
+
+
+
+
+
+        <div class="row" id="rigacentrata">
+          <div class="col-md-4 hidden-sm hidden-xs text-right" id="rigacentrata">
+            <a href="Casa_e_famiglia.html" class="btn btn-primary" id="bottonetabella"><span class="glyphicon glyphicon-arrow-left"></span> Casa e famiglia</a>
+          </div>
+          <div class="col-sm-10 hidden-lg hidden-md">
+            <a href="Casa_e_famiglia.html" class="btn btn-primary" id="bottoniprevnext"><span class="glyphicon glyphicon-arrow-left"></span></a>
+            <a style="float:right;" href="Servizi_alla_persona.html" class="btn btn-primary"  id="bottoniprevnext"><span class="glyphicon glyphicon-arrow-right"></span></a>
           </div>
           <div class="col-md-4">
-            <div class="row" style="margin-top: 30; margin-right: 0; margin-left: 0;">
               <a class="thumbnail">
                 <img src="imgs\smartlife\salute e benessere.PNG">
               </a>
@@ -87,7 +94,6 @@
                 <a href="WellUp.html">WellUp</a>
                 <p></p>
               </div>
-            </div>
             <hr>
             <div class="text-center">
               <a href="#">Richiedi nuovo servizio SmartLife: Salute e benessere</a>
@@ -95,13 +101,16 @@
                 <a href="SmartLife.html">↑ TORNA ALLE CATEGORIE ↑</a>
               </p>
             </div>
+
           </div>
-          <div class="col-md-4" style="padding-right:20%; padding-top:10%">
-            <a href="Servizi_alla_persona.html" class="btn btn-primary">Servizi alla persona →</a>
+          <div class="col-md-4 hidden-sm hidden-xs text-left" id="rigacentrata">
+            <a href="Servizi_alla_persona.html" class="btn btn-primary"  id="bottonetabella">Servizi alla persona <span class="glyphicon glyphicon-arrow-right"></span></a>
           </div>
         </div>
-      </div>
-    </div>
+
+
+
+
     <!--SiteMap-->
     <nav class="DocumentList  navbar navbar-default" id="navigationbarp">
       <div class="row container-fluid">

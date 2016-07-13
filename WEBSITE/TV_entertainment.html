@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="imgs\favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tim.css" rel="stylesheet" type="text/css">
+    <link href="css/orientation.css" rel="stylesheet" type="text/css">
   </head><body>
     <!--Barra superiore-->
     <nav id="landmark" class="navbar navbar-inverse">
@@ -67,14 +68,30 @@
         </ul>
       </div>
     </nav>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4" style="padding-left:18%; padding-top:10%">
-            <a href="Servizi_alla_persona.html" class="btn btn-primary">← Servizi alla persona</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row" id="rigacentrata">
+          <div class="col-md-4 hidden-xs hidden-sm text-right" id="rigacentrata">
+            <a href="Servizi_alla_persona.html" class="btn btn-primary" id="bottonetabella"><span class="glyphicon glyphicon-arrow-left"></span>  Servizi alla persona</a>
+          </div>
+          <div class="col-sm-10 hidden-lg hidden-md hidden-sm">
+            <a href="Servizi_alla_persona.html" class="btn btn-primary" id="bottoniprevnext"><span class="glyphicon glyphicon-arrow-left"></span></a>
+            <a style="float:right" href="Casa_e_famiglia.html" class="btn btn-primary"  id="bottoniprevnext"><span class="glyphicon glyphicon-arrow-right"></span></a>
           </div>
           <div class="col-md-4">
-            <div class="row" style="margin-top: 30; margin-right: 0; margin-left: 0;">
               <a class="thumbnail">
                 <img src="imgs\smartlife\tv e entertainment.PNG">
               </a>
@@ -87,7 +104,6 @@
                 <a id="linknonvalidi">Serie A TIM</a>
                 <p></p>
               </div>
-            </div>
             <hr>
             <div class="text-center">
               <a href="#">Richiedi nuovo servizio SmartLife: TV &amp; Entertainment</a>
@@ -95,13 +111,17 @@
                 <a href="SmartLife.html">↑ TORNA ALLE CATEGORIE ↑</a>
               </p>
             </div>
-          </div>
-          <div class="col-md-4" style="padding-right:20%; padding-top:10%">
-            <a href="Casa_e_famiglia.html" class="btn btn-primary">Casa e famiglia →</a>
+
+        </div>
+          <div class="col-md-4 hidden-xs hidden-sm text-left" id="rigacentrata">
+            <a href="Casa_e_famiglia.html" class="btn btn-primary"  id="bottonetabella">Casa e famiglia <span class="glyphicon glyphicon-arrow-right"></span></a>
           </div>
         </div>
-      </div>
-    </div>
+
+
+
+
+
     <!--SiteMap-->
     <nav class="DocumentList  navbar navbar-default" id="navigationbarp">
       <div class="row container-fluid">
