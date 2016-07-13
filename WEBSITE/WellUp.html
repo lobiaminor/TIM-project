@@ -9,6 +9,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tim.css" rel="stylesheet" type="text/css">
     <link href="css/SmartLife.css" rel="stylesheet" type="text/css">
+
+  <script>
+    function goBack() {
+        window.history.back();
+    }
+  </script>
   </head>
   <body>
 
@@ -68,18 +74,17 @@
         </ul>
       </div>
     </nav>
+    
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-xs-3">
-            <a id="tornaindietro" href="SupportoConfigurazione.html" class="btn btn-primary "><span class="glyphicon glyphicon-arrow-left"></span> Torna al supporto tecnico</a>
-          </div>
-          <div class="col-xs-3 col-xs-offset-6 hidden-xs hidden-sm">
-            <a id="tornaindietro" href="In_Evidenza.html" class="btn btn-primary ">Torna ai servizi in evidenza <span class="glyphicon glyphicon-arrow-right"></span></a>
+          <div class="col-xs-3" onclick="goBack()">
+            <a id="tornaindietro"  class="btn btn-primary "><span class="glyphicon glyphicon-arrow-left"></span> Torna indietro</a>
           </div>
         </div>
       </div>
     </div>
+
     <div class="section">
       <div class="container">
         <div class="row">
