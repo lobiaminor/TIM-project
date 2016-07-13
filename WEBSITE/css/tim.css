@@ -200,6 +200,8 @@ testo della navbar
 #prezzo{
 	color: #ed1c24;
 	font-size: 20;
+	text-align: center;
+	margin: 20;
 }
 
 #carousel-example-generic{
