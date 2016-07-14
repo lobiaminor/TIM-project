@@ -230,3 +230,8 @@ testo della navbar
 #coloretim{
 	background-color: #0b3d86;
 }
+
+.table-sl td, .table-sl th{
+	padding-left: 20px;
+	padding-top: 20px;
+}
