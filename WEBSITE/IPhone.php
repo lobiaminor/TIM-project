@@ -1,3 +1,8 @@
+<?php 
+include 'db.php';
+$dispositivo = getDispositivo('iphone6');
+ ?>
+
 <html><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -87,16 +92,41 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
               <img src="imgs\telefoni\iphone6.jpg" class="img-responsive align-center dispositivoimg" style="margin-top: 10px">
               <p id="prezzo" class="text-center">649.90€</p>
-              <a href="#" class="buyLink"><p class="text-center">Acquista subito</p></a>
+              
+              
+              
+              
+              
+              
+              
+              <button id="botteneform" type="button" class="btn btn-primary text-center" data-target=".bs-example-modal-lg">Acquista subito</button>
 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           </div>
 
           <div class="col-md-4">
                 <h4>Apple</h4>
-                <h4>IPhone6</h4>
+                <h4><?php echo $dispositivo["nome"]; ?></h4>
                 <table style="width:100%; margin-top:10px" class="table table-bordered left-table">
                   <tr>
                     <th>Descrizione</th>

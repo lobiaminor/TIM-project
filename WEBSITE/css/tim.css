@@ -235,3 +235,9 @@ testo della navbar
 	padding-left: 50px;
 	padding-top: 40px;
 }
+
+#botteneform{
+	background-color: #0b3d86;
+	font-weight: bold;
+	font-family: Arial,Helvetica, sans-serif;
+}
