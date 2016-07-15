@@ -1,7 +1,6 @@
 <?php 
 include 'db.php';
-$dispositivo = getDispositivo('iphone6');
- ?>
+?>
 
 <html><head>
     <meta charset="utf-8">
@@ -93,62 +92,58 @@ $dispositivo = getDispositivo('iphone6');
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center">
-              <img src="imgs\telefoni\iphone6.jpg" class="img-responsive align-center dispositivoimg" style="margin-top: 10px">
-              <p id="prezzo" class="text-center">649.90€</p>
-              
-              
-              
-              
-              
-              
-              
-              <button id="botteneform" type="button" class="btn btn-primary text-center" data-target=".bs-example-modal-lg">Acquista subito</button>
 
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+            <?php
+             $dispositivo = getDispositivo('iphone');
+              $mydiv = '<div class="img-responsive align-center dispositivoimg">';
+              $mydiv .= '<img style="width: 100%;" src="'.$dispositivo['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+           ?>          
+          <p id="prezzo" class="text-center">
+                  <?php
+                    $dispositivo = getDispositivo('iphone');
+                    echo $dispositivo["prezzo"]  . "€"; 
+                  ?>
+          </p>    
+          <button id="botteneform" type="button" class="btn btn-primary text-center" data-target=".bs-example-modal-lg">Acquista subito</button>         
           </div>
 
           <div class="col-md-4">
-                <h4>Apple</h4>
-                <h4><?php echo $dispositivo["nome"]; ?></h4>
+                <h4>
+                  <?php
+                    $dispositivo = getDispositivo('iphone');
+                    echo $dispositivo["marca"]; 
+                  ?>
+                </h4>
+                <h4>
+                  <?php
+                    $dispositivo = getDispositivo('iphone');
+                    echo $dispositivo["nome"]; 
+                  ?>
+                </h4>
                 <table style="width:100%; margin-top:10px" class="table table-bordered left-table">
                   <tr>
                     <th>Descrizione</th>
                  </tr>
                  <tr>
-                    <th class="plainText">Display Retina HD da 4.7'' con 3D Touch. Alluminio serie 7000 e vetro più
-                    resistente. Chip A9 con architettura a 64 bit di livello desktop. Nuova 
-                    fotocamera iSight da 12MP con Live Photos, Touch ID, connessioni Wi-Fi e
-                    4G LTE, batteria a lunga durata e ancora IOS9 e ICloud, il tutto in un'elegante scocca unibody.</th>
+                    <th class="plainText">
+                      <?php
+                        $dispositivo = getDispositivo('iphone');
+                        echo $dispositivo["descrizione"]; 
+                      ?>
+                    </th>
                  </tr>
                   <tr>
                     <th>Scheda tecnica</th>
                  </tr>
                  <tr>
                     <th class="plainText">
-                    <ul>
-                      <li>4GPLUS</li>
-                      <li>Display Retina HD da 4.7''</li>
-                      <li>3D Touch</li>
-                      <li>Chip A9 con coprocessore di movimento M9 integrato</li>
-                      <li>Fotocamera iSight da 12MP</li>
-                   </ul></th>
+                      <?php
+                        $dispositivo = getDispositivo('iphone');
+                        echo $dispositivo["scheda_tecnica"]; 
+                      ?>
+                  </th>
                  </tr>
               </table>
               <a href="IPhoneServiziSmartLife.html"><strong>Visualizza servizi Smart Life disponibili</strong></a>
@@ -221,10 +216,10 @@ $dispositivo = getDispositivo('iphone6');
             <p>SEGUICI SU:</p>
             <ul class="list-unstyled" >
               <li id="fbtw">
-                <a href="#" ><img src="imgs\fb.PNG" class="img-responsive" id="linknonvalidi"> </a>
+                <a href="#" ><img src="imgs\fb.png" class="img-responsive" id="linknonvalidi"> </a>
               </li>
               <li id="fbtw">
-                <a href="#"><img src="imgs\twitter.PNG" class="img-responsive" id="linknonvalidi"></a>
+                <a href="#"><img src="imgs\Twitter.png" class="img-responsive" id="linknonvalidi"></a>
               </li>
               <li id="fbtw">
                 <a href="#"><img src="imgs\Gplus.svg.png" class="img-responsive" id="linknonvalidi"></a>

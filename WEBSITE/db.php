@@ -13,9 +13,9 @@ function getDbConnection(){
     return $conn;
 }
 
-function getDispositivo($nome){
+function getDispositivo($id){
     $conn = getDbConnection();
-    $sql = "SELECT * FROM Dispositivi WHERE nome = '".$nome."'";
+    $sql = "SELECT * FROM Dispositivi WHERE id = '".$id."'";
     $result = $conn->query($sql);
     if ($result->num_rows == 1) {
         return $result->fetch_assoc();
@@ -26,9 +26,9 @@ function getDispositivo($nome){
 }
 
 
-function getImmagine($nome){
+function getImmagine($id){
     $conn = getDbConnection();
-    $sql = "SELECT * FROM Immagini WHERE nome = '".$nome."'";
+    $sql = "SELECT * FROM Immagini WHERE id = '".$id."'";
     $result = $conn->query($sql);
     if ($result->num_rows == 1) {
         return $result->fetch_assoc();
