@@ -112,7 +112,94 @@
               <br>- indirizzo email (facoltativo)
               <br>
               <br>Il nostro personale tecnico ti contatterà quanto prima per concordare
-              l'appuntamento per l'installazione.</p>
+              l'appuntamento per l'installazione.</p><br>
+          <button id="botteneform" type="button" class="btn btn-primary text-center" data-toggle="modal" data-target=".bs-example-modal-lg">Attiva subito</button>
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  
+                  
+                  <form class="form-horizontal">
+                      <div class="col-xs-11 text-left">
+                        <p style="font-weight: bolder">Dati d fatturazione</p>
+                      </div>
+                    <div class="form-group" style="margin-top: 10px">
+                      <div class="col-xs-4 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Nome">
+                      </div>
+                      <div class="col-xs-6">
+                        <input class="form-control"  placeholder="Cognome">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-3 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Prefisso">
+                      </div>
+                      <div class="col-xs-7">
+                        <input class="form-control"  placeholder="Telefono principale">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Nome società (facoltativo)">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Via e numero civico">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Codice di ingresso, interno, piano ecc. (facoltativo)">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Ulteriori informazioni sull'indirizzo (facoltativo)">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-4 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Nazione">
+                      </div>
+                      <div class="col-xs-6">
+                        <input class="form-control"  placeholder="Città">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-2 col-xs-offset-1">
+                        <input class="form-control"  placeholder="CAP">
+                      </div>
+                    </div>
+                      <div class="col-xs-11 text-left">
+                        <p style="font-weight: bolder">Comunicazione</p>
+                      </div>
+                    <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Indirizzo e-mail (facoltativo)">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Cellulare (facoltativo)">
+                      </div>
+                    </div>
+                      <div class="col-xs-11 text-left">
+                        <p style="font-weight: bolder">Per modificare il metodo di pagamento clicca <a href="#" id="linknonvalidi">qui</a></p>
+                      </div>
+                    <div class="form-group">
+                      <div class="col-xs-1 col-xs-offset-8 text-right">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Annulla</button>
+                      </div>
+                      <div class="col-xs-2">
+                        <button type="submit" class="btn btn-primary" data-dismiss="modal">Conferma</button>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
             <img src="imgs\in_evidenza\gestione_linea.png" class="img-responsive" style="padding-top: 100px;">
           </div>
         </div>
@@ -122,7 +209,7 @@
     <nav class="navbar navbar-default" id="navigationbarp">
       <div class="container-fluid">
         <div class="navbar-header">
-          <div class="navbar-brand" style="padding: 0; padding-top: 2;">
+         <div class="navbar-brand" style="padding: 0; padding-top: 2;">
             <img src="imgs\LOGO.jpeg" style="max-width:75; border-radius: 10px 10px 10px 10px;">
           </div>
           <div class="navbar-brand" style="padding: 0; padding-top: 1; padding-left: 3px;">
