@@ -15,10 +15,11 @@
   </head>
   <body>
 
+<!--Barra superiore-->
     <nav id="landmark" class="navbar navbar-inverse" >
   <div class="container-fluid">
     <ul class="nav navbar-nav navbar-left">
-                <li>
+      <li>
         <a href="index.php" style="padding:0px">
             <?php
              $immagine = getImmagine('logotim');
@@ -30,28 +31,28 @@
         </a>
       </li>
       <li><a href="#" id="linknonvalidi">Il gruppo</a></li> 
-      <li><a href="Chi_Siamo.html">Chi siamo</a></li> 
+      <li><a href="Chi_Siamo.php_ini_loaded_file">Chi siamo</a></li> 
       <li class="dropdown" >
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Dispositivi
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="Dispositivi.html">Per categoria</a></li>
-          <li><a href="Promozioni.html">Promozioni</a></li>
+          <li><a href="Dispositivi.php">Per categoria</a></li>
+          <li><a href="Promozioni.php">Promozioni</a></li>
         </ul>
       </li>
             <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Smart Life
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="SmartLife.html">Per categoria</a></li>
+          <li><a href="SmartLife.php">Per categoria</a></li>
         </ul>
       </li>
             <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Assistenza
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="Assistenza.html" >Per categoria</a></li>
-          <li><a href="In_Evidenza.html" >In evidenza</a></li>
+          <li><a href="Assistenza.php" >Per categoria</a></li>
+          <li><a href="In_Evidenza.php" >In evidenza</a></li>
         </ul>
       </li>
     </ul>
