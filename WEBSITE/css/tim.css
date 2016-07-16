@@ -84,6 +84,7 @@ testo della navbar
 	
 	font-size: 14;
 	font-family: Arial,Helvetica, sans-serif;
+	padding: 0;
 }
 
 /*
@@ -175,6 +176,8 @@ testo della navbar
 	border-color: #C0C0C0 ;
 	margin-top: 120px;
 	margin-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 0;
 }
 
 #navigationbartext{
@@ -241,3 +244,9 @@ testo della navbar
 	font-weight: bold;
 	font-family: Arial,Helvetica, sans-serif;
 }
+
+#barrapath{
+	 display: inline-flex;
+}
+
+
