@@ -419,7 +419,7 @@
 
           </div>
           <div class="navbar-brand" style="padding: 0; padding-top: 1; padding-left: 3px;">
-            <p class="navbar-text">DISPOSITIVI / SMARTPHONE E TELEFONI</p>
+            <p class="navbar-text">DISPOSITIVI / SMARTPHONE E TELEFONI /</p>
           </div>
         </div>
       </div>
