@@ -32,7 +32,7 @@
         </a>
       </li>
       <li><a href="#" id="linknonvalidi">Il gruppo</a></li> 
-      <li><a href="Chi_Siamo.php_ini_loaded_file">Chi siamo</a></li> 
+      <li><a href="Chi_Siamo.php">Chi siamo</a></li> 
       <li class="dropdown" >
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Dispositivi
         <span class="caret"></span></a>
@@ -79,20 +79,20 @@
         <span class="caret "></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="altrilinktendina">
-        <li><a class="thumbnail" href="SmartphoneETelefoni.html">
+        <li><a class="thumbnail text-center" href="SmartphoneETelefoni.php">
           <img src="imgs\dispositivi\smartphone e telefoni.PNG" class="img-rounded">
         </a></li>
-        <li><a class="thumbnail" href="TabletEComputer.html">
-          <img src="imgs\dispositivi\tablet e computer.PNG" class="img-rounded">
+        <li><a class="thumbnail text-center" href="TabletEComputer.php">
+         <img src="imgs\dispositivi\tablet e computer.PNG" class="img-rounded">
         </a></li>
-        <li><a class="thumbnail" href="ModemENetworking.html">
+        <li><a class="thumbnail text-center" href="ModemENetworking.php">
           <img src="imgs\dispositivi\modem e networking.PNG" class="img-rounded">
         </a></li>
-        <li><a class="thumbnail" href="TvESmartLiving.html">
-          <img src="imgs\dispositivi\tv e smart living.PNG" class="img-rounded">
+        <li><a class="thumbnail text-center" href="TvESmartLiving.php">
+        <img src="imgs\dispositivi\tv e smart living.PNG" class="img-rounded">
         </a></li>
-        <li><a class="thumbnail" href="Outlet.html">
-          <img src="imgs\dispositivi\outlet.PNG" class="img-rounded">
+        <li><a class="thumbnail text-center" href="Outlet.php">
+         <img src="imgs\dispositivi\outlet.PNG" class="img-rounded">
         </a></li>
       </ul>
     </div>
@@ -129,36 +129,93 @@
   </div>
 
   <div class="col-md-6 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="imgs\telefoni\galaxys7.jpg" id="immaginidispositivi">
+      <?php
+      $dispositivo = getDispositivo('s7');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?> 
       <div class="caption text-center">
-        <h3>Samsung</h3>
-        <h3>Galaxy S7</h3>
-        <p id="prezzo">749.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('s7');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('s7');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('s7');
+            echo $dispositivo["prezzo"] ." €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\telefoni\lgg5.jpg" id="immaginidispositivi">
+      <?php
+      $dispositivo = getDispositivo('g5');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?> 
       <div class="caption text-center">
-        <h3>Lg</h3>
-        <h3>G5</h3>
-        <p id="prezzo">419.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('g5');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('g5');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('g5');
+            echo $dispositivo["prezzo"] ." €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\telefoni\huaweip9.png" id="immaginidispositivi">
+      <?php
+      $dispositivo = getDispositivo('huaweip9');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?> 
       <div class="caption text-center">
-        <h3>Huawei</h3>
-        <h3>P9</h3>
-        <p id="prezzo">399.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('huaweip9');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('huaweip9');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('huaweip9');
+            echo $dispositivo["prezzo"] ." €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
@@ -174,10 +231,10 @@
 
 <div class="row hidden-xs hidden-sm" >
   <div class="col-md-3 col-md-offset-1">
-    <a class="thumbnail" href="SmartphoneETelefoni.html" id="currentPage">
+    <a class="thumbnail" href="SmartphoneETelefoni.php" id="currentPage">
        <img src="imgs\dispositivi\smartphone e telefoni.PNG" class="img-rounded">
     </a>
-    <a class="thumbnail" href="TabletEComputer.html" id="altrilink">
+    <a class="thumbnail" href="TabletEComputer.php" id="altrilink">
       <img src="imgs\dispositivi\tablet e computer.PNG" class="img-rounded">
     </a>
     <a class="linknonvalidi thumbnail" href="#" id="altrilink" >
@@ -186,7 +243,7 @@
     <a class="linknonvalidi thumbnail" href="#" id="altrilink">
       <img src="imgs\dispositivi\tv e smart living.PNG" class="img-rounded">
     </a>
-    <a class="thumbnail" href="Outlet.html" id="altrilink">
+    <a class="thumbnail" href="Outlet.php" id="altrilink">
       <img src="imgs\dispositivi\outlet.PNG" class="img-rounded">
     </a>
   </div>
@@ -224,36 +281,93 @@
   </div>
 
   <div class="col-md-6 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="imgs\telefoni\galaxys7.jpg" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('s7');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Samsung</h3>
-        <h3>Galaxy S7</h3>
-        <p id="prezzo">749.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('s7');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('s7');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('s7');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\telefoni\lgg5.jpg" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('g5');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Lg</h3>
-        <h3>G5</h3>
-        <p id="prezzo">419.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('g5');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('g5');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('g5');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\telefoni\huaweip9.png" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('huaweip9');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Huawei</h3>
-        <h3>P9</h3>
-        <p id="prezzo">399.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('huaweip9');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('huaweip9');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('huaweip9');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>

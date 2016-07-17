@@ -31,7 +31,7 @@
         </a>
       </li>
       <li><a href="#" id="linknonvalidi">Il gruppo</a></li> 
-      <li><a href="Chi_Siamo.php_ini_loaded_file">Chi siamo</a></li> 
+      <li><a href="Chi_Siamo.php">Chi siamo</a></li> 
       <li class="dropdown" >
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Dispositivi
         <span class="caret"></span></a>

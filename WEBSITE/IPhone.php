@@ -40,7 +40,7 @@
         </a>
       </li>
       <li><a href="#" id="linknonvalidi">Il gruppo</a></li> 
-      <li><a href="Chi_Siamo.php_ini_loaded_file">Chi siamo</a></li> 
+      <li><a href="Chi_Siamo.php">Chi siamo</a></li> 
       <li class="dropdown" >
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Dispositivi
         <span class="caret"></span></a>
@@ -74,18 +74,7 @@
 
 
 
-            <ul class="dropdown-menu">
-              <li>
-                <a href="Assistenza.php">Per categoria</a>
-              </li>
-              <li>
-                <a href="In_Evidenza.php">In evidenza</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
+
     <div class="section">
       <div class="container">
         <div class="row">
@@ -116,7 +105,9 @@
                     echo $dispositivo["prezzo"]  . " €"; 
                   ?>
           </p>    
-          
+
+
+        
 <!-- FORM ACQUISTO inizio-->
           <button id="botteneform" type="button" class="btn btn-primary text-center" data-toggle="modal" data-target=".bs-example-modal-lg">Acquista subito</button>         
           
