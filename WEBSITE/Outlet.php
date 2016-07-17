@@ -98,48 +98,124 @@
     </div>
 
       <div class="col-md-6 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="imgs\outlet\sirio.png" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('sirio');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>TIM</h3>
-        <h3>Sirio</h3>
-        <p id="prezzo">29.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('sirio');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('sirio');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('sirio');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="Sirio.php" class="btn btn-primary" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="imgs\outlet\gearfit.jpg" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('gearfit');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Samsung</h3>
-        <h3>Gear Fit</h3>
-        <p id="prezzo">79.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('gearfit');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('gearfit');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('gearfit');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\outlet\liberto.jpg" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('doro');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Doro</h3>
-        <h3>Liberto 820 Mini</h3>
-        <p id="prezzo">159.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('doro');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('doro');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('doro');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\outlet\myway.png" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('mivida');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Olivetti</h3>
-        <h3>My Way</h3>
-        <p id="prezzo">19.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('mivida');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('mivida');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('mivida');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
@@ -173,48 +249,124 @@
   </div>
 
       <div class="col-md-6 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="imgs\outlet\sirio.png" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('sirio');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>TIM</h3>
-        <h3>Sirio</h3>
-        <p id="prezzo">29.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('sirio');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('sirio');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('sirio');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="Sirio.php" class="btn btn-primary" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="imgs\outlet\gearfit.jpg" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('gearfit');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Samsung</h3>
-        <h3>Gear Fit</h3>
-        <p id="prezzo">79.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('gearfit');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('gearfit');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('gearfit');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\outlet\liberto.jpg" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('doro');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Doro</h3>
-        <h3>Liberto 820 Mini</h3>
-        <p id="prezzo">159.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('doro');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('doro');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('doro');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-6 col-md-offset-5">
-    <div class="thumbnail">
-      <img src="imgs\outlet\myway.png" id="immaginidispositivi">
+    <?php
+      $dispositivo = getDispositivo('mivida');
+      $mydiv = '<div class="thumbnail">';
+      $mydiv .= '<img id="immaginidispositivi"  src="'.$dispositivo['path'].'" />';
+      echo $mydiv;
+     ?>  
       <div class="caption text-center">
-        <h3>Olivetti</h3>
-        <h3>My Way</h3>
-        <p id="prezzo">19.90€</p>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('mivida');
+            echo $dispositivo["marca"]; 
+          ?>
+        </h3>
+        <h3>
+           <?php
+            $dispositivo = getDispositivo('mivida');
+            echo $dispositivo["nome"]; 
+          ?>
+        </h3>
+        <p id="prezzo">
+           <?php
+            $dispositivo = getDispositivo('mivida');
+            echo $dispositivo["prezzo"] . " €"; 
+          ?>
+        </p>
         <p><a href="#" class="btn btn-primary linknonvalidi" role="button">Vai al dispositivo</a></p>
       </div>
     </div>

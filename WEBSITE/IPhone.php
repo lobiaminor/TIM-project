@@ -165,7 +165,7 @@
                       </div>
                     </div>
                     <div class="form-group">
-                      <div class="col-xs-2 col-xs-offset-1">
+                      <div class="col-xs-3 col-xs-offset-1">
                         <input class="form-control"  placeholder="CAP">
                       </div>
                     </div>
@@ -186,10 +186,10 @@
                         <p style="font-weight: bolder">Per modificare il metodo di pagamento clicca <a href="#" id="linknonvalidi">qui</a></p>
                       </div>
                     <div class="form-group">
-                      <div class="col-xs-1 col-xs-offset-8 text-right">
+                      <div class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-6">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Annulla</button>
                       </div>
-                      <div class="col-xs-2">
+                      <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-0">
                         <button type="submit" class="btn btn-primary" data-dismiss="modal">Conferma</button>
                       </div>
                     </div>

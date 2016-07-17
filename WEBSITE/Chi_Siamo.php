@@ -68,6 +68,9 @@
         </ul>
       </div>
     </nav>
+
+
+    
     <div class="row" style="margin-top: 10; margin-bottom:100">
       <div class="text-center">
         <h1 id="titolo" style="font-size:50">Innovazione</h1>
