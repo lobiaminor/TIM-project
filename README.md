@@ -14,7 +14,7 @@ Working demo: http://timpolimi.altervista.org/
 
 Note:
 - There are some differences between mobile and desktop views. Some elements' displaying was reorganized to make the website more mobile friendly, but the ooffered functionalities are always the same regardless the view type.
-- Many links are not working yet, since this is not a complete version of the site. This kind of links are marked in light grey on mouse passage.
+- Not all the links indicated in the IDM are actually working in the website. These links are set to reduce opacity on mouse hover to distinguish them from the working ones, as stated in the project  requirements. This also applies for some links that are just placeholders and not in the IDM, included in the website only for design purposes (i.e. Mail, Carrello, etc.).
 
 You can download the **PhoneGap** build directly by scanning this:
 
