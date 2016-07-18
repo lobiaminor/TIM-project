@@ -1,3 +1,7 @@
+<?php 
+  include 'db.php';
+?>
+
 <html><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,108 +13,125 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tim.css" rel="stylesheet" type="text/css">
   </head><body>
-    <nav id="landmark" class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav navbar-left">
-          <li>
-            <a href="index.php" style="padding:0px"><img src="imgs\LOGO.jpeg" class="img-responsive" style="max-width:87; "></a>
-          </li>
-          <li>
-            <a href="#" id="linknonvalidi">Il gruppo</a>
-          </li>
-          <li>
-            <a href="Chi_Siamo.php">Chi siamo</a>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dispositivi
 
+<!--Barra superiore-->
+    <nav id="landmark" class="navbar navbar-inverse" >
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-left">
+      <li>
+        <a href="index.php" style="padding:0px">
+            <?php
+             $immagine = getImmagine('logotim');
+              $mydiv = '<div class="img-responsive">';
+              $mydiv .= '<img style="width: 100%; max-width: 87;" src="'.$immagine['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+           ?>     
+        </a>
+      </li>
+      <li><a href="#" id="linknonvalidi">Il gruppo</a></li> 
+      <li><a href="Chi_Siamo.php">Chi siamo</a></li> 
+      <li class="dropdown" >
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Dispositivi
         <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="Dispositivi.php">Per categoria</a>
-              </li>
-              <li>
-                <a href="Promozioni.php">Promozioni</a>
-              </li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Smart Life
-
-        <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="SmartLife.php">Per categoria</a>
-              </li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Assistenza
-
-        <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="Assistenza.php">Per categoria</a>
-              </li>
-              <li>
-                <a href="In_Evidenza.php">In evidenza</a>
-              </li>
-            </ul>
-          </li>
+        <ul class="dropdown-menu">
+          <li><a href="Dispositivi.php">Per categoria</a></li>
+          <li><a href="Promozioni.php">Promozioni</a></li>
         </ul>
-        <ul class="hidden-xs nav navbar-nav navbar-right">
-          <li>
-            <a href="#" id="linknonvalidi"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> Mail</span></a>
-          </li>
-          <li>
-            <a href="#" id="linknonvalidi"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"> Carrello</span></a>
-          </li>
+      </li>
+            <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Smart Life
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="SmartLife.php">Per categoria</a></li>
         </ul>
-      </div>
-    </nav>
+      </li>
+            <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Assistenza
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Assistenza.php" >Per categoria</a></li>
+          <li><a href="In_Evidenza.php" >In evidenza</a></li>
+        </ul>
+      </li>
+    </ul>
+     <ul class="hidden-xs nav navbar-nav navbar-right">   
+      <li><a href="#" id="linknonvalidi"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> Mail</span></a></li> 
+      <li><a href="#" id="linknonvalidi"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"> Carrello</span></a></li> 
+    </ul>
+  </div>
+</nav>
+
+
     <div class="row" style="margin-top: 10; margin-bottom:100">
       <div class="text-center">
         <h1 id="titolo" style="font-size:50">Progetti</h1>
       </div>
     </div>
-    <div class="row" style="margin-top: 10; margin-right: 0; margin-left: 0;">
-      <div class="col-xs-12 col-md-4 col-lg-4 img" href="#">
+    <div class="row" style="margin-top: 10; margin-left: 10%;">
+      <div class="col-xs-12 col-md-4 col-lg-4 img-responsive" href="#" style="width: 500">
         <a class="thumbnail" href="Chi_Siamo.php">
           
             <div class="text-center">
               <h3 id="titolo">Innovazione</h3>
             </div>
-      <img src="imgs\innovazione\innovazione-thumb.jpg">
+            <?php
+             $immagine = getImmagine('innovazione1');
+              $mydiv = '<div class="img-responsive">';
+              $mydiv .= '<img style="width: 100%;" src="'.$immagine['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+           ?>     
           </a>
       </div>
-      <div class="col-xs-12 col-md-4 col-lg-4 img">
+      <div class="col-xs-12 col-md-4 col-lg-4 img-responsive" style="width: 500">
         <a class="thumbnail" href="Progetti.php">
 		<div class="text-center">
               <h3 id="titolo">Progetti</h3>
             </div>
-      <img src="imgs\progetti\progetti-thumb.png">
-
+            <?php
+             $immagine = getImmagine('progetti1');
+              $mydiv = '<div class="img-responsive">';
+              $mydiv .= '<img style="width: 100%;" src="'.$immagine['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+           ?>     
     </a>
       </div>
-      <div class="col-xs-12 col-md-4 col-lg-4 img">
+      <div class="col-xs-12 col-md-4 col-lg-4 img-responsive" style="width: 500">
         <a class="thumbnail" href="Testimonials.php">
 		<div class="text-center">
               <h3 id="titolo">Testimonials</h3>
             </div>
-      <img src="imgs\testimonials\testimonials-thumb.png">
-
+            <?php
+             $immagine = getImmagine('testimonial1');
+              $mydiv = '<div class="img-responsive">';
+              $mydiv .= '<img style="width: 100%;" src="'.$immagine['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+           ?>     
     </a>
-      </div>
-    </div>
+  </div>
+</div>
+
+
     <div class="carousel slide" id="carousel-example-generic" data-ride="carousel" style="margin-left:5%; margin-right:5%">
       <div class="carousel-inner" role="listbox">
         <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="imgs\progetti\bimbi.PNG" class="center-block">
-          </div>
-          <div class="item ">
-            <img src="imgs\progetti\ragazzi.PNG" class="center-block">
-          </div>
+            <?php
+             $immagine = getImmagine('progetti2');
+              $mydiv = '<div class="item active">';
+              $mydiv .= '<img style="width: 80%;" src="'.$immagine['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+
+             $immagine = getImmagine('progetti3');
+              $mydiv = '<div class="item">';
+              $mydiv .= '<img style="width: 80%;" src="'.$immagine['path'].'" />';
+              $mydiv .= '</div>';
+              echo $mydiv;
+
+            ?>
         </div>
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="sr-only">Previous</span>
@@ -227,4 +248,4 @@
     <script src="js/bootstrap.min.js"></script>
   
 
-</body></html>
+</body></html>
