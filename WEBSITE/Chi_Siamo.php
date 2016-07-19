@@ -70,7 +70,7 @@
         <h1 id="titolo" style="font-size:50">Innovazione</h1>
       </div>
     </div>
-    <div class="row" style="margin-top: 10; margin-left: 10%;">
+    <div class="row" style="margin-top: 10; margin-left: 5%; margin-right: 5%;">
       <div class="col-xs-12 col-sm-12 col-md-3 img-responsive" href="#" style="width: 500">
         <a class="thumbnail text-center img-responsive" href="Chi_Siamo.php">
           
@@ -78,7 +78,7 @@
               <h3 id="titolo">Innovazione</h3>
 
             <?php
-             $immagine = getImmagine('innovazione1');
+            $immagine = getImmagine('innovazione1');
               $mydiv = '<div class="img-responsive">';
               $mydiv .= '<img style="width: 100%;" src="'.$immagine['path'].'" />';
               $mydiv .= '</div>';
@@ -300,4 +300,4 @@
       </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body></html>
+</body></html>
