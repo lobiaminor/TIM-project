@@ -129,6 +129,11 @@
                       </div>
                     </div>
                     <div class="form-group">
+                      <div class="col-xs-10 col-xs-offset-1">
+                        <input class="form-control"  placeholder="Data di nascita(gg\mm\aaaa)">
+                      </div>
+                    </div>
+                    <div class="form-group">
                       <div class="col-xs-3 col-xs-offset-1">
                         <input class="form-control"  placeholder="Prefisso">
                       </div>
@@ -247,7 +252,17 @@
               <table style="width:100%; margin-top:10px" class="table table-bordered left-table">
                   <tr>
                     <th>
-                    <a href="Scopri_timgames.php">TIM Games</a><br>
+                    <a href="Scopri_timgames.php">Scopri TIM Games</a><br>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                    <a href="#" id="linknonvalidi">Scopri TIM Music</a><br>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                    <a href="#" id="linknonvalidi">Configurare la posta</a><br>
                     </th>
                   </tr>
               </table>
