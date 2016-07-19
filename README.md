@@ -10,6 +10,7 @@ Working demo: http://timpolimi.altervista.org/
 
 - CSS pages rely on [Bootstrap](http://getbootstrap.com/) library. The site template has been created manually from scratch and it is fully operative both in desktop and mobile vew.
 - Images and text informations are stored in the [MySQL](https://www.mysql.com/) database.
+- JavaScript code is extended with [JQuery](https://jquery.com/) library's functions.
 - The web app has beenand deployed and  tested relying on [PhoneGap](http://phonegap.com/).
 
 Note:
