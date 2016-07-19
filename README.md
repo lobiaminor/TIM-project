@@ -18,7 +18,7 @@ Note:
 
 You can download the **PhoneGap** build directly by scanning this:
 
-![Image](https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://build.phonegap.com/apps/2174266/install/P7Kg45rkumg-wiYdnvyi&chld=L|1&choe=UTF-8)
+![Image](https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://build.phonegap.com/apps/2175342/install/fzVo1Z-znVDJFxeDMFxm&chld=L|1&choe=UTF-8)
 
 ## Credits
 Riccardo Lo Bianco  
